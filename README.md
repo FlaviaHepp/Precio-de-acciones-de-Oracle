@@ -21,13 +21,6 @@ Se calculan medios y desviaciones móviles estándar para identificar tendencias
 *Análisis de volatilidad y volumen:* Los rendimientos diarios destacan fluctuaciones significativas, una característica típica del mercado bursátil. Se analiza la relación entre el volumen de operaciones y los precios, revelando una valoración positiva.
 
 **Resultados clave:**
-Los precios de Oracle muestran una tendencia de crecimiento a largo plazo, con alta volatilidad en ciertos períodos.
-ARIMA y GARCH capturan diferentes aspectos de los datos: el primero para tendencias generales y el segundo para variaciones en la volatilidad.
-La regresión lineal, aunque básica, podría mejorarse con variables adicionales.
-
-
-
-
 Se observa un crecimiento significativo en los precios de las acciones a lo largo de los años.
 El precio de cierre de la acción muestra una tendencia alcista a lo largo del tiempo.
 El volumen de operaciones muestra una alta volatilidad, con picos significativos en ciertos períodos.
