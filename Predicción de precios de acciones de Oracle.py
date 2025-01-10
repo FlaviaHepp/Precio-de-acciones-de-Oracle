@@ -1,23 +1,3 @@
-"""
-Oracle Corporation es una empresa multinacional de tecnología conocida por su conjunto completo y totalmente integrado de aplicaciones en 
-la nube y servicios de plataforma . Fundada en 1977 por Larry Ellison, Bob Miner y Ed Oates, Oracle ha crecido hasta convertirse en una 
-de las empresas de sistemas de software y hardware más grandes del mundo, particularmente reconocida por sus sistemas de gestión de bases 
-de datos. A lo largo de los años, Oracle ha ampliado su oferta de productos para incluir soluciones en la nube , software empresarial y 
-productos de hardware , manteniendo una fuerte presencia en el mercado tecnológico global. La empresa salió a bolsa en 1986, lo que 
-impulsó significativamente su crecimiento y alcance de mercado.
-
-Este conjunto de datos proporciona un registro completo de los cambios en el precio de las acciones de Oracle desde su oferta pública 
-inicial en 1986. Incluye columnas esenciales como la fecha , el precio de apertura , el precio más alto del día, el precio más bajo del 
-día, el precio de cierre , el precio de cierre ajustado y el volumen de operaciones .
-
-Estos datos extensos son invaluables para realizar análisis históricos, pronosticar el desempeño futuro de las acciones y comprender las 
-tendencias del mercado a largo plazo relacionadas con las acciones de Oracle."""
-
-#Análisis completo del conjunto de datos de precios de acciones de Oracle
-#Este cuaderno proporciona un análisis completo del conjunto de datos de precios de acciones de Oracle. El análisis incluye preprocesamiento 
-# de datos, descriptivo # estadísticas, visualizaciones, análisis de series temporales, modelos predictivos, análisis de volatilidad y 
-# análisis de volumen.
-
 #Importar bibliotecas y conjuntos de datos necesarios
 import pandas as pd
 import numpy as np
@@ -182,41 +162,6 @@ plt.title('Precio de las acciones de Oracle frente al volumen de operaciones\n',
 plt.xlabel('Volumen\n')
 plt.ylabel('Cerrar Precio\n')
 plt.show()
-"""
-Conclusiones
-Estadísticas descriptivas:
 
-El conjunto de datos proporciona una visión completa de los movimientos del precio de las acciones de Oracle desde su salida a bolsa en 
-1986.
-Se observa un crecimiento significativo en los precios de las acciones a lo largo de los años.
-Visualizaciones:
-
-El precio de cierre de la acción muestra una tendencia alcista a lo largo del tiempo.
-El volumen de operaciones muestra una alta volatilidad, con picos significativos en ciertos períodos.
-Análisis de series temporales:
-
-La descomposición de las series temporales revela tendencias subyacentes, patrones estacionales y componentes de ruido.
-La prueba aumentada de Dickey-Fuller indica que la serie temporal no es estacionaria, por lo que es necesario diferenciarla para modelarla.
-Modelado ARIMA:
-
-El modelo ARIMA proporciona pronósticos razonables, capturando la dirección general de los movimientos del precio de las acciones.
-Sin embargo, es posible que no capte todas las complejidades y cambios repentinos en los precios de las acciones.
-Modelado GARCH:
-
-El modelo GARCH captura efectivamente la volatilidad en los rendimientos de las acciones, destacando períodos de mayor y menor volatilidad.
-Los pronósticos de volatilidad pueden ser valiosos para la gestión de riesgos y las estrategias comerciales.
-Modelado predictivo:
-
-El modelo de regresión lineal, aunque simplista, ofrece una predicción básica de los precios de las acciones en función de las características de la fecha.
-El rendimiento del modelo se puede mejorar incorporando más funciones y utilizando técnicas avanzadas.
-Análisis de volatilidad y volumen:
-
-Los rendimientos diarios exhiben una volatilidad significativa, característica del comportamiento del mercado de valores.
-Existe una relación positiva entre el volumen de operaciones y los precios de las acciones, lo que sugiere que los aumentos de precios suelen 
-ir acompañados de mayores volúmenes.
-En general, el análisis proporciona una comprensión integral del comportamiento del precio de las acciones de Oracle a lo largo del tiempo, 
-destacando tendencias, volatilidad y posibles enfoques de modelado predictivo. Los conocimientos pueden ayudar a los inversores y analistas 
-a tomar decisiones informadas basadas en datos históricos y pronósticos.
-"""
 
 
